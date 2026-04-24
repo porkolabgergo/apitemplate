@@ -37,7 +37,7 @@ public static class ServiceCollectionExtensions
         {
             options.SwaggerDoc("v1", new OpenApiInfo
             {
-                Title = "ApiTemplate",
+                Title = "Apitemplate",
                 Version = "v1",
                 Description = "A production-ready .NET 10 Web API template using CQRS with vertical slices.",
             });

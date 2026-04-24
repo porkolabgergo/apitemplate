@@ -59,7 +59,7 @@ public sealed class WeatherForecastController : BaseApiController
 
         return CreatedResult(
             "GetWeatherForecast",
-            new { },
+            null!,
             result.Value);
     }
 }
