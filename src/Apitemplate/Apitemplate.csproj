@@ -4,10 +4,15 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>Apitemplate</RootNamespace>
+        <AssemblyName>Apitemplate</AssemblyName>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3"/>
+        <PackageReference Include="MediatR" Version="12.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1"/>
     </ItemGroup>
 
 </Project>
